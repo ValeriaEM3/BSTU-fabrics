@@ -1,27 +1,27 @@
 .furnitura {
-    margin-top: 207px;
+    margin-top: 53px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
+    //display: flex;
+    //flex-direction: column;
+    
+  }
+  
+  .furnitura__row {
+    margin-bottom: 30px;
     h1 {
       text-align: center;
     }
   }
   
-  .furnitura__row {
-    margin-bottom: 30px;
-  }
-  
-  .button__row {
+  /*.button__row {
     right: 41px;
     display: flex;
     position: absolute;
     margin-top: -30px;
-  }
+  }*/
 
   
-  .furnitura__column__row1 {
+  /*.furnitura__column__row1 {
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
@@ -29,14 +29,11 @@
     justify-content: space-between;
     width: 782px;
     height: 130px;
-}
-    .furnitura__blok__row2 {
-        margin: 0px auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 33px;
-        justify-content: space-between;
-        width: 747px;
-        height: 19px;
+}*/
+    .furnitura__block__row {
+       display: flex;
+       align-items: center;
+       margin-left: 345px;
+       margin-top: 57px;
   
   }

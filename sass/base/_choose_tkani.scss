@@ -1,5 +1,5 @@
 .choose_tkani {
-    margin-top: 46px;  /*было 126рх*/
+    margin-top: 40px;  /*было 126рх*/
   
   }
   
@@ -8,19 +8,17 @@
     margin-bottom: 40px;    /*было 26px*/
   }
   
-  .choose_tkani__row {    /*не знаю что это*/
-    height: 566px;
-    position: relative;
+  .choose_tkani__row {   
+    width: 864px; /*не знаю что это*/
+    //height: 566px;
+    //position: relative;
     margin-top: 27px;
-    display: flex;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-
-  .choose_tkani__img {
-    position: absolute;
     display: flex;
     flex-wrap: wrap;
     gap: 42px;
-    width: 592px;
+    //padding-left: 34px;
+    //padding-right: 34px;
+    margin: 0px auto;
   }
+
+ 

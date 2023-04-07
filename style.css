@@ -21,15 +21,14 @@
   text-align: left;
 }
 
-.about_store__text::after {
+/*.about_store__text::after {
   content: "";
   width: 358px;
   background-color: black;
   height: 1px;
   display: block;
   margin: 27px auto 0;
-}
-
+}*/
 .about_store__img__row {
   display: flex;
   justify-content: space-between;
@@ -38,7 +37,7 @@
 }
 
 .choose_tkani {
-  margin-top: 46px; /*было 126рх*/
+  margin-top: 40px; /*было 126рх*/
 }
 
 .choose_tkani {
@@ -46,21 +45,13 @@
   margin-bottom: 40px; /*было 26px*/
 }
 
-.choose_tkani__row { /*не знаю что это*/
-  height: 566px;
-  position: relative;
+.choose_tkani__row {
+  width: 864px; /*не знаю что это*/
   margin-top: 27px;
-  display: flex;
-  padding-left: 34px;
-  padding-right: 34px;
-}
-
-.choose_tkani__img {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
   gap: 42px;
-  width: 592px;
+  margin: 0px auto;
 }
 
 .contacts {
@@ -150,45 +141,37 @@
 }
 
 .furnitura {
-  margin-top: 207px;
+  margin-top: 53px;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  /*align-items: center;*/
-}
-.furnitura h1 {
-  text-align: center;
 }
 
 .furnitura__row {
   margin-bottom: 30px;
 }
+.furnitura__row h1 {
+  text-align: center;
+}
 
-.button__row {
+/*.button__row {
   right: 41px;
   display: flex;
   position: absolute;
   margin-top: -30px;
-}
-
-.furnitura__column__row1 {
-  margin: 0px auto;
+}*/
+/*.furnitura__column__row1 {
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    justify-content: space-between;
+    width: 782px;
+    height: 130px;
+}*/
+.furnitura__block__row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 33px;
-  justify-content: space-between;
-  width: 782px;
-  height: 130px;
-}
-
-.furnitura__blok__row2 {
-  margin: 0px auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 33px;
-  justify-content: space-between;
-  width: 747px;
-  height: 19px;
+  align-items: center;
+  margin-left: 345px;
+  margin-top: 57px;
 }
 
 .header__wrapper {
@@ -383,15 +366,15 @@ button:focus {
 }
 
 .triko {
-  margin-top: 118px;
+  margin-top: 120px;
   position: relative;
 }
 .triko h1 {
   text-align: center;
 }
 
-.trico__row {
-  margin-bottom: 94px;
+.triko__row {
+  margin-bottom: 75px;
 }
 
 .button__row {
@@ -401,9 +384,9 @@ button:focus {
 }
 
 .triko__block {
+  display: block;
   border: 1px solid black;
   border-radius: 20px;
-  border-color: rgb(255, 255, 255);
   width: 381px;
   height: 211px;
   display: flex;
@@ -411,19 +394,11 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
-
-.trico__block1 {
-  width: 381px;
-  height: 211px;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
+.triko__block h2 {
+  margin-top: 10px;
 }
 
-.trico__blok__row {
+.triko__blok__row {
   margin: 0px auto;
   display: flex;
   flex-wrap: wrap;
@@ -431,15 +406,6 @@ button:focus {
   justify-content: space-between;
   width: 890px;
   height: 462px;
-}
-
-.triko__lineal {
-  border-left: 1px solid black;
-  height: 462px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 114px;
 }
 
 * {
@@ -460,18 +426,18 @@ h1 {
 }
 
 h2 {
-  font-family: "Raleway";
+  font-family: "Source Serif Pro";
   font-style: normal;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 53px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 h3 {
-  font-family: "Raleway";
+  font-family: "Source Serif Pro";
   font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 30px;
 }
 

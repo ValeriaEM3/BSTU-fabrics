@@ -1,5 +1,5 @@
 .triko {
-    margin-top: 118px;
+    margin-top: 120px;
     position: relative;
   
     h1 {
@@ -8,8 +8,8 @@
     }
   }
   
-  .trico__row {
-    margin-bottom: 94px;
+  .triko__row {
+    margin-bottom: 75px;
   }
   
   .button__row {
@@ -20,31 +20,24 @@
   
   
   .triko__block {
+    display: block;
     border: 1px solid black;
     border-radius: 20px;
-    border-color: $color_fon;
+    //border-color: $color_fon;
     width: 381px;
     height: 211px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    h2{
+      margin-top: 10px;
+    }
   
   }
   
   
-  .trico__block1 {
-    width: 381px;
-    height: 211px;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-  }
-  
-  .trico__blok__row {
+  .triko__blok__row {
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
@@ -54,13 +47,5 @@
     height: 462px;
   }
   
-  .triko__lineal{
-    border-left: 1px solid black;
-    height: 462px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 114px;
-  }
 
  
