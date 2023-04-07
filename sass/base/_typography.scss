@@ -1,0 +1,80 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+  scroll-behavior: smooth;
+}
+
+
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+  }
+  
+  h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+  }
+  
+  h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  h4 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  p {
+    font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 30px;
+/* or 100% */
+
+text-align: justify;
+  }
+  
+  .button {
+    background-color: $color_button;
+    width: 291px;
+    height: 47px;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: color 0.1s solid;
+  
+    &:hover {
+      color: white;
+    }
+  }

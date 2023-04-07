@@ -1,0 +1,38 @@
+.navigation {
+  position: absolute;
+    //padding-left: 121px;
+    margin-left: 280px;
+    width: 984px;           /*?*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation__menu {
+  //position: absolute;
+    
+      display: flex;
+      justify-content: space-between;
+      margin-top: 42px;
+  
+    
+  
+    a {
+      text-decoration: none;
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      color: rgba(255, 255, 255, 1);
+      ;
+  
+      &:hover {
+        color: rgba(240, 119, 65, 1);
+      }
+    }
+  
+    li {
+      margin-right: 31px;
+    }
+  }

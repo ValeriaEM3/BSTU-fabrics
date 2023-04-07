@@ -1,0 +1,41 @@
+.about_store {
+    margin-top: 74px;
+  }
+  
+  .about_store__row {
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    width: 812px;
+    margin-left: 355px;
+  
+    h1 {
+      color: $color_font;
+    }
+    p{
+      margin-top: 15px;
+    }
+  }
+  
+  .about_store__text {
+    
+    //text-align: center;
+    margin-top: 22px;
+    text-align: left;
+  }
+  
+  .about_store__text::after {
+    content: "";
+    width: 358px;
+    background-color: black;
+    height: 1px;
+    display: block;
+    margin: 27px auto 0;
+  }
+  
+  .about_store__img__row {
+    display: flex;
+    justify-content: space-between;
+    width: 771px;
+    margin-top: 41px;
+  }

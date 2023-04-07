@@ -1,0 +1,22 @@
+_video.scss
+
+
+.video {
+    h1 {
+      text-align: center;
+    }
+  
+    margin-top: 148px;
+  }
+  
+  .video__img {
+    video {
+      width: 900px;
+      height: 500px;
+      padding: 62px;
+            background: url(image.png);  /*добавила эти 2 строчки радиус*/                      border-radius: 20px;
+            border-radius: 20px;
+          }
+  }
+
+  

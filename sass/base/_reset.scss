@@ -1,0 +1,43 @@
+.container {
+    max-width: 1024px;
+    margin: 0px auto;
+  }
+  
+  //Шрифт основной
+  body {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  
+   // background-color: $backgroundcolor_white;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  input,
+  button {
+    border: none;
+    font-family: Source Serif Pro;
+  }
+  
+  button,
+  input[type="submit"] {
+    cursor: pointer;
+    background: none;
+  }
+  
+  input:focus,
+  button:focus {
+    outline: none;
+  }

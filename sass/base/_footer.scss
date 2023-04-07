@@ -1,0 +1,39 @@
+.footer__info {
+  a {
+    text-decoration: none;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: inherit;
+  }
+
+  li {
+    margin-bottom: 14px;
+  }
+}
+
+.footer__icons {
+  a {
+    padding-right: 30px;
+  }
+}
+
+.figma {
+  display: flex;
+
+  a {
+    text-decoration: underline;
+    margin-left: 4px;
+    
+  }
+
+}
+
+.footer__icon__li {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 23px;
+}
