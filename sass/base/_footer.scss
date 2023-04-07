@@ -1,16 +1,31 @@
+.footer{
+  position: relative;
+  margin-top: 110px;
+  background-color: $backgroundcolor_grey;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 290px;
+  padding-right: 135px;
+}
 .footer__info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 25px;
+  margin-top: 40px;
+ 
   a {
     text-decoration: none;
     font-family: 'Source Serif Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 20px;
     color: inherit;
   }
 
   li {
-    margin-bottom: 14px;
+    margin-bottom: 34px;
   }
 }
 
@@ -30,7 +45,10 @@
   }
 
 }
-
+.footer__contacts{
+  
+  margin-top: 20px;
+}
 .footer__icon__li {
   display: flex;
   align-items: center;

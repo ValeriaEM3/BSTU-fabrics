@@ -1,4 +1,4 @@
-_video.scss
+//_video.scss
 
 
 .video {
@@ -6,15 +6,15 @@ _video.scss
       text-align: center;
     }
   
-    margin-top: 148px;
+    margin-top: 140px;
   }
   
   .video__img {
-    video {
+    margin-top: 75px;
+    iframe {
       width: 900px;
       height: 500px;
-      padding: 62px;
-            background: url(image.png);  /*добавила эти 2 строчки радиус*/                      border-radius: 20px;
+            //background: url(image.png);  /*добавила эти 2 строчки радиус*/                      border-radius: 20px;
             border-radius: 20px;
           }
   }

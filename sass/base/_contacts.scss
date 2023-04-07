@@ -1,21 +1,39 @@
 .contacts {
     margin-top: 209px;
+    margin-left: 250px;
   
     h1 {
-      text-align: center;
+      margin-left: 278px;
+      position: absolute;
+    }
+    img{
+      margin-top: -10px;
+      position: absolute;
+      //margin-left: -500px;
+      z-index: -1;
+      height: 720px;
     }
   }
   
   .contacts__row {
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 67px;    /*скорее не нужно*/
+    margin-top: 167px;    /*скорее не нужно*/
   }
   
   .form {
+    form{
+      margin-top: 150px;
+    }
     li {
       margin: 0px 0px 13px 58px;
+    }
+    button{
+      width: 417px;
+      height: 61px;
+      background-color: $color_font;
     }
   
     input {                         /*не знаю что это*/
@@ -37,7 +55,7 @@
   .contacts__input {
     width: 417px;
     height: 61px;
-    background-color: $color_form;
+    background-color: $backgroundcolor_grey;
     border: 1px solid black;
     border-radius: 20px;
   }
@@ -45,12 +63,13 @@
   .contacts__input__big {
     width: 417px;
     height: 124px;
-    background-color: $color_form;
+    background-color: $backgroundcolor_grey;
     border: 1px solid black;
     border-radius: 20px;
   }
   
   .contacts__button {
-    margin-left: 158px;
-    margin-top: 58px;
+    margin-left: 50px;
+    margin-top: 55px;
+    
   }

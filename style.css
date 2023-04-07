@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .about_store {
-  margin-top: 74px;
+  margin-top: 94px;
 }
 
 .about_store__row {
@@ -37,7 +37,7 @@
 }
 
 .choose_tkani {
-  margin-top: 40px; /*было 126рх*/
+  margin-top: 45px; /*было 126рх*/
 }
 
 .choose_tkani {
@@ -56,20 +56,36 @@
 
 .contacts {
   margin-top: 209px;
+  margin-left: 250px;
 }
 .contacts h1 {
-  text-align: center;
+  margin-left: 278px;
+  position: absolute;
+}
+.contacts img {
+  margin-top: -10px;
+  position: absolute;
+  z-index: -1;
+  height: 720px;
 }
 
 .contacts__row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 67px; /*скорее не нужно*/
+  margin-top: 167px; /*скорее не нужно*/
 }
 
+.form form {
+  margin-top: 150px;
+}
 .form li {
   margin: 0px 0px 13px 58px;
+}
+.form button {
+  width: 417px;
+  height: 61px;
+  background-color: rgb(240, 119, 65);
 }
 .form input { /*не знаю что это*/
   font-family: "Raleway";
@@ -90,7 +106,7 @@
 .contacts__input {
   width: 417px;
   height: 61px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(244, 245, 239);
   border: 1px solid black;
   border-radius: 20px;
 }
@@ -98,27 +114,44 @@
 .contacts__input__big {
   width: 417px;
   height: 124px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(244, 245, 239);
   border: 1px solid black;
   border-radius: 20px;
 }
 
 .contacts__button {
-  margin-left: 158px;
-  margin-top: 58px;
+  margin-left: 50px;
+  margin-top: 55px;
 }
 
+.footer {
+  position: relative;
+  margin-top: 110px;
+  background-color: rgb(244, 245, 239);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 290px;
+  padding-right: 135px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 25px;
+  margin-top: 40px;
+}
 .footer__info a {
   text-decoration: none;
   font-family: "Source Serif Pro";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 20px;
   color: inherit;
 }
 .footer__info li {
-  margin-bottom: 14px;
+  margin-bottom: 34px;
 }
 
 .footer__icons a {
@@ -133,6 +166,10 @@
   margin-left: 4px;
 }
 
+.footer__contacts {
+  margin-top: 20px;
+}
+
 .footer__icon__li {
   display: flex;
   align-items: center;
@@ -141,7 +178,7 @@
 }
 
 .furnitura {
-  margin-top: 53px;
+  margin-top: 75px;
   position: relative;
 }
 
@@ -284,44 +321,54 @@
 }
 
 .price {
-  margin-top: 54px;
-  position: absolute;
-}
-.price h1 {
-  text-align: center;
+  margin-top: 116px;
 }
 
-.price__button__row {
-  right: 46px;
-  position: absolute;
-  margin-top: -30px;
-}
-
-.price__blocks {
+/* .price__button__row {
+   right: 46px;
+   position: absolute;
+   margin-top: -30px;
+ }*/
+.price__row {
   display: flex;
-  justify-content: space-between;
-  gap: 106px;
   margin-top: 57px;
-  padding-left: 121px;
+  margin-left: 365px;
+  align-items: center;
+  width: 1000px;
 }
 
 .price__material {
-  width: 270px;
-  height: 346px;
+  text-align: left;
+}
+.price__material h1 {
+  margin: 45px 0px 45px 0px;
 }
 
 .price__from {
   width: 30px;
-  height: 377px;
+  margin-top: 10px;
+  margin-left: 125px;
+}
+.price__from h2 {
+  margin-bottom: 40px;
 }
 
 .price__price {
   width: 290px;
-  height: 377px;
+  text-align: left;
+  margin-left: 30px;
+}
+.price__price h1 {
+  margin: 45px 0px 45px 0px;
 }
 
 .price__measure {
   width: 71px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.price__measure h2 {
+  margin-bottom: 40px;
 }
 
 .container {
@@ -366,7 +413,7 @@ button:focus {
 }
 
 .triko {
-  margin-top: 120px;
+  margin-top: 160px;
   position: relative;
 }
 .triko h1 {
@@ -374,7 +421,7 @@ button:focus {
 }
 
 .triko__row {
-  margin-bottom: 75px;
+  margin-bottom: 93px;
 }
 
 .button__row {
@@ -422,7 +469,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 70px;
+  line-height: 30px;
 }
 
 h2 {
@@ -442,10 +489,10 @@ h3 {
 }
 
 h4 {
-  font-family: "Raleway";
+  font-family: "Source Serif Pro";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 20px;
 }
 
@@ -484,18 +531,18 @@ p {
   color: white;
 }
 
-_video.scss .video {
-  margin-top: 148px;
+.video {
+  margin-top: 140px;
 }
-_video.scss .video h1 {
+.video h1 {
   text-align: center;
 }
 
-.video__img video {
+.video__img {
+  margin-top: 75px;
+}
+.video__img iframe {
   width: 900px;
   height: 500px;
-  padding: 62px;
-  background: url(image.png); /*добавила эти 2 строчки радиус*/
-  border-radius: 20px;
   border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
