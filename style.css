@@ -1,52 +1,35 @@
 @charset "UTF-8";
 .about_store {
-  margin-top: 94px;
-}
-
-.about_store__row {
-  display: flex;
-  flex-direction: column;
-  width: 812px;
-  margin-left: 355px;
-}
-.about_store__row h1 {
   color: rgb(240, 119, 65);
 }
-.about_store__row p {
-  margin-top: 15px;
+.about_store .container {
+  padding: 74px 106px 53px 106px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
 
 .about_store__text {
-  margin-top: 22px;
-  text-align: left;
-}
-
-/*.about_store__text::after {
-  content: "";
-  width: 358px;
-  background-color: black;
-  height: 1px;
-  display: block;
-  margin: 27px auto 0;
-}*/
-.about_store__img__row {
   display: flex;
-  justify-content: space-between;
-  width: 771px;
-  margin-top: 41px;
+  flex-direction: column;
+  gap: 28px;
+  color: rgb(0, 0, 0);
+}
+.about_store__text p {
+  text-align: justify;
 }
 
 .choose_tkani {
-  margin-top: 45px; /*было 126рх*/
+  margin-top: 45px;
 }
 
 .choose_tkani {
-  margin-top: 126px; /*не знаю что это*/
-  margin-bottom: 40px; /*было 26px*/
+  margin-top: 126px;
+  margin-bottom: 40px;
 }
 
 .choose_tkani__row {
-  width: 864px; /*не знаю что это*/
+  width: 864px;
   margin-top: 27px;
   display: flex;
   flex-wrap: wrap;
@@ -55,8 +38,10 @@
 }
 
 .contacts {
-  margin-top: 209px;
+  margin-top: 200px;
   margin-left: 250px;
+  background-image: url("./assets/png/ОбратнаяCвязь.png");
+  background-repeat: no-repeat;
 }
 .contacts h1 {
   margin-left: 278px;
@@ -73,7 +58,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 167px; /*скорее не нужно*/
+  margin-top: 167px;
 }
 
 .form form {
@@ -87,7 +72,7 @@
   height: 61px;
   background-color: rgb(240, 119, 65);
 }
-.form input { /*не знаю что это*/
+.form input {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -178,7 +163,7 @@
 }
 
 .furnitura {
-  margin-top: 75px;
+  margin-top: 78px;
   position: relative;
 }
 
@@ -189,26 +174,18 @@
   text-align: center;
 }
 
-/*.button__row {
+.button__row {
   right: 41px;
   display: flex;
   position: absolute;
   margin-top: -30px;
-}*/
-/*.furnitura__column__row1 {
-    margin: 0px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 33px;
-    justify-content: space-between;
-    width: 782px;
-    height: 130px;
-}*/
+}
+
 .furnitura__block__row {
   display: flex;
   align-items: center;
-  margin-left: 345px;
-  margin-top: 57px;
+  justify-content: space-between;
+  padding: 86px 330px 145px 370px;
 }
 
 .header__wrapper {
@@ -321,18 +298,12 @@
 }
 
 .price {
-  margin-top: 116px;
+  margin-top: 136px;
 }
 
-/* .price__button__row {
-   right: 46px;
-   position: absolute;
-   margin-top: -30px;
- }*/
 .price__row {
   display: flex;
-  margin-top: 57px;
-  margin-left: 365px;
+  padding: 57px 78px 240px 121px;
   align-items: center;
   width: 1000px;
 }
@@ -341,7 +312,9 @@
   text-align: left;
 }
 .price__material h1 {
-  margin: 45px 0px 45px 0px;
+  padding-top: 75px;
+  padding: 25px 0px 25px 0px;
+  padding-left: 250px;
 }
 
 .price__from {
@@ -350,13 +323,13 @@
   margin-left: 125px;
 }
 .price__from h2 {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .price__price {
-  width: 290px;
+  width: 500px;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 29px;
 }
 .price__price h1 {
   margin: 45px 0px 45px 0px;
@@ -365,7 +338,7 @@
 .price__measure {
   width: 71px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 170px;
 }
 .price__measure h2 {
   margin-bottom: 40px;
@@ -379,8 +352,8 @@
 body {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 60px;
   line-height: 30px;
   text-align: center;
 }
@@ -532,7 +505,7 @@ p {
 }
 
 .video {
-  margin-top: 140px;
+  margin-top: 148px;
 }
 .video h1 {
   text-align: center;

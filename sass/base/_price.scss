@@ -1,45 +1,40 @@
 .price {
-    margin-top: 116px;
+    margin-top: 136px;
     
   }
-  
- /* .price__button__row {
-    right: 46px;
-    position: absolute;
-    margin-top: -30px;
-  }*/
   
   .price__row {
     display: flex;
     //justify-content: space-between;
-    margin-top: 57px;
-    margin-left: 365px;
+    padding: 57px 78px 240px 121px;
     align-items: center;
     width: 1000px;
 
   }
   
   .price__material {
-    //width: 270px;
-    //height: 346px;
     text-align: left;
     h1{
-      margin: 45px 0px 45px 0px;
+      padding-top: 75px;
+      padding: 25px 0px 25px 0px;
+      padding-left: 250px;
+     
     }
   }
- 
+  
+
+
   .price__from {
       width: 30px;
-      //height: 377px;
       margin-top: 10px;
       margin-left: 125px;
-      h2{margin-bottom: 40px;}
+      h2{margin-bottom: 50px;}
   }
 
   .price__price {
-  width: 290px;
+  width: 500px;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 29px;
   h1{
     margin: 45px 0px 45px 0px;
   }
@@ -48,7 +43,7 @@
   .price__measure {
   width: 71px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 170px;
   h2{margin-bottom: 40px;}
   
   }
