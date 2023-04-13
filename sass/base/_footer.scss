@@ -1,0 +1,57 @@
+.footer{
+  position: relative;
+  margin-top: 110px;
+  background-color: $backgroundcolor_grey;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 290px;
+  padding-right: 135px;
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 25px;
+  margin-top: 40px;
+ 
+  a {
+    text-decoration: none;
+    font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 20px;
+    color: inherit;
+  }
+
+  li {
+    margin-bottom: 34px;
+  }
+}
+
+.footer__icons {
+  a {
+    padding-right: 30px;
+  }
+}
+
+.figma {
+  display: flex;
+
+  a {
+    text-decoration: underline;
+    margin-left: 4px;
+    
+  }
+
+}
+.footer__contacts{
+  
+  margin-top: 20px;
+}
+.footer__icon__li {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 23px;
+}

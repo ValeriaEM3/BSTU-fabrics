@@ -1,0 +1,88 @@
+.header__wrapper{
+  width: 1024px;
+  height: 600px;
+  .menu-btn {
+    display: none;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+}
+
+
+.header__logo{
+  position: absolute;
+  margin-top: 50px;
+  z-index: 1;
+  margin-left: 120px;
+    a{
+        img{
+            @media screen and (max-width: 320px){
+                width: 20px;
+                height: 20px;
+            } 
+        }
+    }
+  
+}
+.header__img{
+  position: relative;
+  z-index: -1;
+  margin: 0px auto;
+}
+  
+.header__text__img {
+    display: flex;
+    margin-top: 45px;
+}
+  
+.header__text {
+    text-align: center;
+    margin-top: 45px;
+  
+    h1 {
+      margin-left: 121px;
+    }
+}
+  
+  .text__2 {
+    margin-top: 29px;
+    width: 840px;
+    height: 70px;
+    margin-left: 121px;
+  }
+  .hero{
+    width: 840px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -373px;
+    text-align: left;
+    margin-left: 123px;
+    h1{
+      font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+color: white;
+    }
+    p{
+      margin-top: 23px;
+    }
+    button{
+      margin-top: 30px;
+      font-weight: 600;
+    }
+  }
+
+  .header__button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 415px;
+    margin-left: 138px;
+    padding: 1rem;
+  }

@@ -1,0 +1,20 @@
+.about_store {
+  color: rgba(240, 119, 65, 1);
+  .container {
+    padding: 74px 106px 53px 106px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }  
+}
+
+  
+.about_store__text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  color: rgb(0, 0, 0);
+  p {
+    text-align: justify;
+  }
+}
