@@ -500,28 +500,19 @@ button:focus {
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  .triko h1 h1 {
-    width: 123px;
-    height: 30px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .triko {
+  .triko h1 {
     display: block;
   }
 }
-
-.triko__row {
+.triko .triko__row {
   margin-bottom: 93px;
 }
-
-.button__row {
+.triko .button__row {
   right: 41px;
   position: absolute;
   margin-top: -30px;
 }
-
-.triko__block {
+.triko .triko__block {
   display: block;
   display: block;
   border: 1px solid black;
@@ -534,7 +525,7 @@ button:focus {
   justify-content: center;
 }
 @media screen and (max-width: 767px) {
-  .triko__block {
+  .triko .triko__block {
     display: block;
     display: block;
     border: 1px solid black;
@@ -543,11 +534,10 @@ button:focus {
     height: 72px;
   }
 }
-.triko__block h2 {
+.triko .triko__block h2 {
   margin-top: 10px;
 }
-
-.triko__blok__row {
+.triko .triko__blok__row {
   margin: 0px auto;
   display: flex;
   flex-wrap: wrap;
@@ -557,14 +547,17 @@ button:focus {
   height: 462px;
 }
 @media screen and (max-width: 767px) {
-  .triko__blok__row {
+  .triko .triko__blok__row {
     width: 300px;
     height: 290px;
   }
-  .triko__blok__row img {
+  .triko .triko__blok__row img {
     width: 40px;
     height: 40px;
   }
+}
+.triko .triko__block__aktive {
+  border: 3px solid rgb(240, 119, 65);
 }
 
 * {
@@ -611,9 +604,9 @@ h4 {
 h5 {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
 }
 
 p {

@@ -50,6 +50,7 @@
   }
   
   
+  
   .triko__blok__row {
     @media screen and (max-width: 767px){
       width: 300px;
@@ -66,8 +67,9 @@
     justify-content: space-between;
     width: 890px;
     height: 462px;
-   
   }
   
-
- 
+.triko__block__aktive{
+  border: 3px solid $color_font;
+}
+}
