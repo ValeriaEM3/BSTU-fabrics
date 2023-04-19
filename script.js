@@ -24,7 +24,7 @@ const triko = {
   
   function changeImage (event) {
     const triko = event.target.dataset.triko;
-    const trikoImages = document.querySelector('.choose_tkani__row').children;
+    const trikoImages = document.querySelectorAll('.choose_tkani__block > img');
     console.log(trikoImages);
     //Array.from(trikoImages).forEach((image, index) => image.src = triko[triko][index]);
     Array.from(trikoImages).forEach((image, index) => image.src = './assets/' + triko + '/Фото' + (index + 1) + '.png');
