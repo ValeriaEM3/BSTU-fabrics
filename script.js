@@ -22,8 +22,10 @@ const triko = {
   }
   
   
-  function changeImage (event) {
-    const triko = event.target.dataset.triko;
+  function changeImage (event, triko) {
+    // const parent =  event.currentTarget;
+    // const triko = parent.querySelector('.triko__block').dataset.triko;
+    console.log(triko);
     const trikoImages = document.querySelectorAll('.choose_tkani__block > img');
     console.log(trikoImages);
     //Array.from(trikoImages).forEach((image, index) => image.src = triko[triko][index]);
@@ -41,9 +43,13 @@ const triko = {
   };
   
   function buttonClick (event) {
-    if (event.target.classList.contains('triko__block')) {
-      changeImage (event);
-    };
+    console.log(event.currentTarget);
+    const triko = event.currentTarget.dataset.triko;
+    changeImage (event, triko);
   };
+
   
-  document.querySelector('.triko__blok__row').addEventListener('click', buttonClick);
+  document.querySelector('#Lien').addEventListener('click', buttonClick);
+  document.querySelector('#Cotton').addEventListener('click', buttonClick);
+  document.querySelector('#Lapsha').addEventListener('click', buttonClick);
+  document.querySelector('#Futer').addEventListener('click', buttonClick);
