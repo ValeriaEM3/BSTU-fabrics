@@ -29,14 +29,76 @@
 }
 
 .choose_tkani__row {
-  width: 864px;
-  margin-top: 27px;
+  width: 1024px;
+  height: 1000px;
+  position: relative;
+  margin: 0px auto;
+  overflow-x: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  transition-duration: 3s;
+}
+
+.photo__image {
   display: flex;
   flex-wrap: wrap;
   gap: 42px;
-  margin: 0px auto;
+  width: 100%;
+  margin-top: 27px;
+  justify-content: space-around;
+}
+.photo__image img {
+  height: 400px;
 }
 
+.arrows {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  justify-content: space-between;
+  top: calc(50% + 10px);
+  opacity: 0;
+  transition: all 2s;
+}
+.arrows button {
+  font-size: 40px;
+}
+.slider:hover + .arrows, .arrows:hover {
+  opacity: 1;
+}
+
+.move_left {
+  animation-name: move_left;
+  animation-duration: 2s;
+}
+
+@keyframes move_left {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: -200%;
+  }
+}
+.move_right {
+  animation-name: move_right;
+  animation-duration: 2s;
+}
+
+@keyframes move_right {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
 .contacts {
   margin-top: 200px;
   margin-left: 250px;
@@ -499,18 +561,21 @@ button:focus {
 .triko h1 {
   text-align: center;
 }
-
-.triko__row {
+@media screen and (max-width: 767px) {
+  .triko h1 {
+    display: block;
+  }
+}
+.triko .triko__row {
   margin-bottom: 93px;
 }
-
-.button__row {
+.triko .button__row {
   right: 41px;
   position: absolute;
   margin-top: -30px;
 }
-
-.triko__block {
+.triko .triko__block {
+  display: block;
   display: block;
   border: 1px solid black;
   border-radius: 20px;
@@ -521,11 +586,20 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
-.triko__block h2 {
+@media screen and (max-width: 767px) {
+  .triko .triko__block {
+    display: block;
+    display: block;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 97px;
+    height: 72px;
+  }
+}
+.triko .triko__block h2 {
   margin-top: 10px;
 }
-
-.triko__blok__row {
+.triko .triko__blok__row {
   margin: 0px auto;
   display: flex;
   flex-wrap: wrap;
@@ -533,6 +607,19 @@ button:focus {
   justify-content: space-between;
   width: 890px;
   height: 462px;
+}
+@media screen and (max-width: 767px) {
+  .triko .triko__blok__row {
+    width: 300px;
+    height: 290px;
+  }
+  .triko .triko__blok__row img {
+    width: 40px;
+    height: 40px;
+  }
+}
+.triko .triko__block__aktive {
+  border: 3px solid rgb(240, 119, 65);
 }
 
 * {
@@ -579,9 +666,9 @@ h4 {
 h5 {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
 }
 
 p {

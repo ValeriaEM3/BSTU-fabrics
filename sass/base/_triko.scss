@@ -4,8 +4,10 @@
   
     h1 {
       text-align: center;
-  
+    @media screen and (max-width: 767px) {
+      display: block;
     }
+  
   }
   
   .triko__row {
@@ -20,6 +22,17 @@
   
   
   .triko__block {
+    @media screen and (max-width: 767px) {
+      display: block;
+      display: block;
+      border: 1px solid black;
+      border-radius: 20px;
+      //border-color: $color_fon;
+      width: 97px;
+      height: 72px;
+      
+    }
+    display: block;
     display: block;
     border: 1px solid black;
     border-radius: 20px;
@@ -33,11 +46,20 @@
     h2{
       margin-top: 10px;
     }
-  
+   
   }
   
   
+  
   .triko__blok__row {
+    @media screen and (max-width: 767px){
+      width: 300px;
+      height: 290px; 
+        img{
+            width: 40px;
+            height: 40px;
+      }
+    }
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
@@ -47,5 +69,7 @@
     height: 462px;
   }
   
-
- 
+.triko__block__aktive{
+  border: 3px solid $color_font;
+}
+}
