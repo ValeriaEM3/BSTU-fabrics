@@ -1,0 +1,33 @@
+.furnitura {
+    margin-top: 78px;
+    position: relative;
+    //display: flex;
+    //flex-direction: column;
+    
+  }
+  
+  .furnitura__row {
+    margin-bottom: 30px;
+    h1 {
+      text-align: center;
+    }
+  }
+  
+  .button__row {
+    right: 41px;
+    display: flex;
+    position: absolute;
+    margin-top: -30px;
+  }
+
+
+    .furnitura__block__row {
+       display: flex;
+       align-items: center;
+        justify-content: space-between;
+       padding: 86px 330px 145px 370px;
+       @media screen and (max-width:768px) {
+        padding: 0px;
+       }
+  
+  }

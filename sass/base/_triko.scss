@@ -1,0 +1,75 @@
+.triko {
+    margin-top: 160px;
+    position: relative;
+  
+    h1 {
+      text-align: center;
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  
+  }
+  
+  .triko__row {
+    margin-bottom: 93px;
+  }
+  
+  .button__row {
+    right: 41px;
+    position: absolute;
+    margin-top: -30px;
+  }
+  
+  
+  .triko__block {
+    @media screen and (max-width: 767px) {
+      display: block;
+      display: block;
+      border: 1px solid black;
+      border-radius: 20px;
+      //border-color: $color_fon;
+      width: 97px;
+      height: 72px;
+      
+    }
+    display: block;
+    display: block;
+    border: 1px solid black;
+    border-radius: 20px;
+    //border-color: $color_fon;
+    width: 381px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+      margin-top: 10px;
+    }
+   
+  }
+  
+  
+  
+  .triko__blok__row {
+    @media screen and (max-width: 767px){
+      width: 300px;
+      height: 290px; 
+        img{
+            width: 40px;
+            height: 40px;
+      }
+    }
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    width: 890px;
+    height: 462px;
+  }
+  
+.triko__block__aktive{
+  border: 3px solid $color_font;
+}
+}
