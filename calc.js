@@ -55,6 +55,6 @@ BtnM4.onclick = function () {
 }
 const buttonTotal = document.querySelector('.calc_total').addEventListener('click', Total);
 function Total() {
-  var total = Number(IntVal1) * 50 + Number(IntVal2) * 35 + Number(IntVal3) * 10 + Number(IntVal4) * 50;
+  var total = Number(IntVal1) * 50 + Number(IntVal2) * 35 + Number(IntVal3) * 10 + Number(IntVal4) * 4S0;
   document.getElementById('Price').innerHTML = total + " BYN";
 }
