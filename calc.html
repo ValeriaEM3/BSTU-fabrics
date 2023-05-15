@@ -55,6 +55,7 @@
         <p class="calc_text2">Вы можете оформить заказ самостоятельно, добавив выбранные Вами товары в корзину. Или воспользоваться помощью менеджеров, если у Вас возникнут какие-либо вопросы.</p>
     </div>
 
+
     <div class="calculator">
         <p class="calc_triko_text">Трикотаж</p>
         <div class="calc">
@@ -63,17 +64,20 @@
                     <p class="calc_col_text">Лён</p>
                     <p class="calc_col_text">Лапша</p>
                 </div>
+            
+
                 <div class="part1_col2">
-                    <button class="but_minus calc_but">-</button>
-                    <button class="but_minus calc_but">-</button>
+                    <button class="but_minus calc_but" id="btnMinusLien">-</button>
+                    <button class="but_minus calc_but" id="btnMinusLapsha">-</button>
+
                 </div>
                 <div class="part1_col3">
-                    <input type="text" value="10" class="calc_input">
-                    <input type="text" value="10"  class="calc_input">
+                    <input class="calc_input" type="text" value="10" id="intLien">
+                    <input class="calc_input" type="text" value="10" id="intLapsha">
                 </div>
                 <div class="part1_col4">
-                    <button class="but_minus calc_but">+</button>
-                    <button class="but_minus calc_but">+</button>
+                    <button class="but_minus calc_but" id="btnPlusLien">+</button>
+                    <button class="but_minus calc_but" id="btnPlusLapsha">+</button>
                 </div>
             </div>
             <div class="calc1">
@@ -81,26 +85,30 @@
                     <p class="calc_col_text">Хлопок</p>
                     <p class="calc_col_text">Футер</p>
                 </div>
+
                 <div class="part1_col2">
-                    <button class="but_minus calc_but">-</button>
-                    <button class="but_minus calc_but">-</button>
+                    <button class="but_minus calc_but" id="btnMinusCotton">-</button>
+                    <button class="but_minus calc_but" id="btnMinusFuter">-</button>
                 </div>
                 <div class="part1_col3">
-                    <input type="text" value="10" class="calc_input">
-                    <input type="text" value="10"  class="calc_input">
+                    <input class="calc_input" type="text" value="10" id="intCotton">
+                    <input class="calc_input" type="text" value="10" id="intFuter">
                 </div>
                 <div class="part1_col4">
-                    <button class="but_minus calc_but">+</button>
-                    <button class="but_minus calc_but">+</button>
+                    <button class="but_minus calc_but" id="btnPlusCotton">+</button>
+                    <button class="but_minus calc_but" id="btnPlusFuter">+</button>
                 </div>
             </div>
         </div>
-        <button class="calc_total">Расчитать</button>
-        <div class="final">
-            <p class="final1">ИТОГО:</p>
-            <p class="final1">0    BYN</p>
-        </div>
-    </div>
+        
+                    <button class="calc_total">Расчитать</button>
+                      <div class="final">
+                         <p class="final1">ИТОГО:</p>
+                         <p class="final1" id="Price"><span>0    BYN</span></p>
+                     </div>
+    </div> 
+
+
     <div class="footer footer_calc">
         <div class="footer__info">
           <ul>
@@ -141,5 +149,6 @@
         </div>
       </div>
     </div>
+    <script src="calc.js"></script>
 </body>
 </html>
